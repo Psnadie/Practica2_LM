@@ -38,13 +38,21 @@ main > :nth-child(2){
 }
 .img_des{
     width: 50%;
+    height: 400px;
 }
 .img_des img{
     max-width: 100%;
+    max-height: 100%;
 }
 .des{
     display: flex;
 }
 .text_des{
     width: 50%;
+}
+.mapa{
+    width: 100%;
+}
+.mapa img{
+    max-width: 100%;
 }
