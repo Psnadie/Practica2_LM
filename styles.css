@@ -142,16 +142,15 @@ main > :nth-child(3){
     background-color: aqua;
 }
 .viñetas::-webkit-scrollbar {
-    height: 5px; /* Ajusta el grosor de la barra */
+    height: 5px;
 }
 
 .viñetas::-webkit-scrollbar-track {
-    background: transparent; /* Hace que el fondo de la barra sea transparente */
+    background: transparent;
 }
 
 .viñetas::-webkit-scrollbar-thumb {
-    background: rgba(0, 0, 0, 0.5); /* Color del "pulgar" de la barra */
-    border-radius: 10px; /* Bordes redondeados */
+    background: rgba(0, 0, 0, 0.5);
 }
 #proces{
     display: flex;
@@ -196,4 +195,35 @@ main > :nth-child(3){
 #disfruta video {
     width: 60%;
     border-radius: 10px;
+}
+#masas h2{
+    font-size: 50px;
+    text-align: center;
+    margin: 30px 0;
+}
+#masas{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#toppings{
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+}
+#toppings h2{
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+    margin: 30px 0;
+}
+.top{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: aqua;
+    margin: 25px;
 }
